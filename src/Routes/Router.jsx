@@ -2,7 +2,7 @@ import React from "react";
 import { Routes, Route, NavLink } from "react-router-dom";
 import Home from "../Components/Main/Home";
 import Services from "../Components/Main/Services";
-import Affiliates from "../Components/Main/Blog";
+import Affiliates from "../Components/Main/Affiliates";
 import About from "../Components/Main/About";
 import PrivacyPolicy from "../Components/Foooter/privacyPolicy";
 import RefundPolicy from "../Components/Foooter/refundPolicy";
