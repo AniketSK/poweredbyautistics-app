@@ -21,7 +21,7 @@ let activeStyle = {
 const links = [
   { to: "/", title: "Home" },
   { to: "/services", title: "Services" },
-  { to: "/blog", title: "Blog" },
+  { to: "/blog", title: "Affiliates" },
   { to: "/about", title: "About" },
 ];
 
