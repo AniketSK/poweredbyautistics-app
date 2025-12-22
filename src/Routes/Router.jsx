@@ -53,7 +53,7 @@ export default function Router() {
         <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />
         <Route path="services" element={<Services />} />
-        <Route path="blog" element={<Blog />} />
+        <Route path="affiliates" element={<Blog />} />
         <Route path="terms&condition" element={<TermsCondition />} />
         <Route path="refundPolicy" element={<RefundPolicy />} />
         <Route path="privacyPolicy" element={<PrivacyPolicy />} />
