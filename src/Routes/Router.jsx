@@ -2,7 +2,7 @@ import React from "react";
 import { Routes, Route, NavLink } from "react-router-dom";
 import Home from "../Components/Main/Home";
 import Services from "../Components/Main/Services";
-import Blog from "../Components/Main/Blog";
+import Affiliates from "../Components/Main/Affiliates";
 import About from "../Components/Main/About";
 import PrivacyPolicy from "../Components/Foooter/privacyPolicy";
 import RefundPolicy from "../Components/Foooter/refundPolicy";
@@ -21,7 +21,7 @@ let activeStyle = {
 const links = [
   { to: "/", title: "Home" },
   { to: "/services", title: "Services" },
-  { to: "/blog", title: "Affiliates" },
+  { to: "/affiliates", title: "Affiliates" },
   { to: "/about", title: "About" },
 ];
 
@@ -53,7 +53,7 @@ export default function Router() {
         <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />
         <Route path="services" element={<Services />} />
-        <Route path="blog" element={<Blog />} />
+        <Route path="affiliates" element={<Affiliates />} />
         <Route path="terms&condition" element={<TermsCondition />} />
         <Route path="refundPolicy" element={<RefundPolicy />} />
         <Route path="privacyPolicy" element={<PrivacyPolicy />} />
