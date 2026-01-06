@@ -3,18 +3,20 @@ import styles from "./Home.module.css";
 import ContactUs from "./ContactUs";
 
 export default function Home() {
-
   return (
     <div>
-
       {/* Who We Are */}
       <section className={styles.weAreBox}>
         Powered by Autistics is an Autistic led service organization.
-        <p>All programs are designed and implemented by Autistic Individuals. We use a
-        Neurodiversity affirming, strength-based approach to nurture confident,
-        self-assured Autistic individuals.
+        <p>
+          All programs are designed and implemented by Autistic Individuals. We
+          use a Neurodiversity affirming, strength-based approach to nurture
+          confident, self-assured Autistic individuals.
         </p>
       </section>
+      <br />
+      <ContactUs />
+      <br />
 
       {/* What We Do Section */}
       <section className={styles.weDoBox}>
@@ -31,13 +33,15 @@ export default function Home() {
           <li>Talks by autistic people about their lived experiences.</li>
           <li>Counsel and train parents/ family of Autistic individuals. </li>
           <li>Training of mainstream school teachers and principals</li>
-          <li><a href="https://bit.ly/4eDI8Vu">Neurodivergent women and non-binary people support group.</a></li>
+          <li>
+            <a href="https://bit.ly/4eDI8Vu">
+              Neurodivergent women and non-binary people support group.
+            </a>
+          </li>
         </ul>
         <p>We are here to Empower Autistic individuals and their families!</p>
       </section>
-      <br/>
-      <ContactUs/>
-      <br/>
+
       {/* Meet Up Section
       <section className={styles.meetupBox}>
         <h2>Our Meetups</h2>
